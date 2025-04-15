@@ -1,0 +1,204 @@
+body {
+    background-color: rgb(139, 139, 139);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.army_logo {
+    width: 100px;
+    height: 120px;
+}
+
+.army_list {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    gap: 10px;
+}
+
+.army {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: rgb(92, 92, 92);
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: 0.2s ease;
+}
+
+.army:hover {
+    color: white;
+    background-color: rgb(88, 103, 103);
+}
+
+.army_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    background-color: grey;
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: 0.2s ease;
+}
+
+.abilities_list {
+    column-count: 5;
+    column-gap: 0.5vw;
+}
+
+.ability_item {
+    display: inline-block;
+    padding: 0.5vw;
+    background-color: rgb(240, 240, 240);
+    color: black;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0.5vh 0vw;
+    border-radius: 0.5vw;
+    border: 0.2vw solid black;
+    transition: 0.2s ease;
+    cursor: default;
+}
+
+.ability_item:hover {
+    background-color: rgb(198, 183, 181);
+}
+
+a {
+    color: inherit;
+    transition: 0.2s ease;
+}
+
+a:hover {
+    color: red;
+}
+
+.ability_item i {
+    font-size: 12px;
+}
+
+.datasheet {
+    width: 40vw;
+}
+
+.back {
+    background-color: rgb(112, 82, 82);
+}
+
+.stratagem_img {
+    width: 20vw;
+    height: 33vh;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+.section_logo{
+    width: 5vw;
+    height: 10vh;
+}
+
+@media (max-width: 768px) {
+    .army_logo {
+        width: 100px;
+        height: 120px;
+    }
+    
+    .army_list {
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        gap: 10px;
+    }
+
+    .section_logo{
+        width: 20vw;
+        height: 10vh;
+    }
+    
+    .army {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        background-color: rgb(92, 92, 92);
+        color: black;
+        text-decoration: none;
+        font-size: 24px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        transition: 0.2s ease;
+    }
+    
+    .back {
+        background-color: rgb(112, 82, 82);
+    }
+    
+    .army:hover {
+        color: white;
+        background-color: rgb(88, 103, 103);
+    }
+    
+    .army_item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        background-color: grey;
+        color: black;
+        text-decoration: none;
+        font-size: 24px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        transition: 0.2s ease;
+    }
+    
+    .abilities_list {
+        column-count: 1;
+        column-gap: 0.5vw;
+    }
+    
+    .ability_item {
+        display: inline-block;
+        padding: 0.5vw;
+        background-color: rgb(240, 240, 240);
+        color: black;
+        font-size: 14px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin: 0.5vh 0vw;
+        border-radius: 1.5vw;
+        border: 0.5vw solid black;
+        transition: 0.2s ease;
+        cursor: default;
+    }
+    
+    .ability_item:hover {
+        background-color: rgb(198, 183, 181);
+    }
+    
+    a {
+        color: inherit;
+        transition: 0.2s ease;
+    }
+    
+    a:hover {
+        color: red;
+    }
+    
+    .ability_item i {
+        font-size: 12px;
+    }
+    
+    .datasheet {
+        width: 100vw;
+    }
+    
+    .stratagem_img {
+        width: 47vw;
+        height: 20vh;
+        margin: 0;
+        padding: 0;
+        display: inline;
+    }
+}
